@@ -27,7 +27,7 @@
     ],
     "require": {
         "php": ">=7.2",
-        "a2lix/auto-form-bundle": "^0.2|^0.3",
+        "rafaeljosem/AutoFormBundle": "dev-master",
         "symfony/config": "^3.4.30|^4.3|^5.0",
         "symfony/dependency-injection": "^3.4.30|^4.3|^5.0",
         "symfony/doctrine-bridge": "^3.4.30|^4.3|^5.0",
@@ -37,6 +37,13 @@
         "symfony/http-kernel": "^3.4.30|^4.3|^5.0",
         "symfony/options-resolver": "^3.4.30|^4.3|^5.0"
     },
+    
+    "repositories": [
+    {
+        "type": "vcs",
+    	"url": "https://github.com/rafaeljosem/AutoFormBundle.git"
+	}
+],
     "require-dev": {
         "doctrine/orm": "^2.7",
         "edgedesign/phpqa": "^1.23",
